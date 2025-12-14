@@ -1,0 +1,26 @@
+{
+    "name": "thebbapp/push-transport-apple",
+    "description": "Apple push notification implementation for BbApp.",
+    "type": "library",
+    "license": "AGPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "BbApp\\PushService\\PushTransport\\Apple\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=7.2.24",
+        "ext-curl": "*",
+        "ext-openssl": "*",
+        "ext-json": "*",
+        "thebbapp/push-service": "0.1.0",
+        "thebbapp/result": "0.1.0",
+        "thebbapp/content-source": "0.1.0"
+    },
+    "funding": [
+        {
+            "type": "paypal",
+            "url": "https://thebbapp.com/donate"
+        }
+    ]
+}
